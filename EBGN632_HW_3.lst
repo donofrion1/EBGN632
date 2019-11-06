@@ -1,0 +1,40 @@
+GAMS 26.1.0  rf2b37b9 Released Feb  2, 2019 WEX-WEI x86 64bit/MS Windows 09/29/19 22:15:24 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  set
+   2  r "U.S. Crude Oil Rotary Rigs in Operation (Count)" /rigs/,
+   3  d "U.S. Product Supplied of Crude Oil and Petroleum Products (Thousand Bar
+      rels)"        /Kbarrels/;
+   4   
+   5  parameter
+   6  c(d,r) "Growth of Index (Percent Change)";
+   7   
+   8  Positive Variables
+   9  P "Cushing, OK WTI Spot Price FOB (Dollars per Barrel)",
+****  $2,299  UNEXPECTED END OF FILE (1)
+GAMS 26.1.0  rf2b37b9 Released Feb  2, 2019 WEX-WEI x86 64bit/MS Windows 09/29/19 22:15:24 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Error Messages
+
+
+  2  Identifier expected
+299  Unexpected end of file
+
+**** 2 ERROR(S)   0 WARNING(S)
+
+
+COMPILATION TIME     =        0.000 SECONDS      3 MB  26.1.0 rf2b37b9 WEX-WEI
+
+
+USER: GAMS Development Corporation, USA              G871201/0000CA-ANY
+      Free Demo, +1 202-342-0180, support@gams.com, www.gams.com DC0000
+
+
+**** FILE SUMMARY
+
+Input      C:\Users\donof\OneDrive\Documents\gamsdir\projdir\HW_3.gms
+Output     C:\Users\donof\OneDrive\Documents\gamsdir\projdir\HW_3.lst
+
+**** USER ERROR(S) ENCOUNTERED
